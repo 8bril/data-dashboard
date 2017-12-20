@@ -1,14 +1,227 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Dashboard</title>
-  </head>
+    <head>
+      <meta charset="utf-8">
+      <title>Data Dashboard</title>
+      <link rel="stylesheet" href="./css/main.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    </head>
   <body>
+    <header>
+      <img class="logo" src="assets/images/logo-laboratoria.svg" alt="LABORATORIA">
+    </header>
+        <section id="menu">
+          <div class="option-sede">
+                 <select id="filter" onchange="selectS(event)">
+                    <option>Selecciona una sede </option>
+                   <option value="AQP" data-sede="AQP" data-generacion="2016-2">Arequipa Generacion 2016-2</option>
+                   <option value="AQP" data-sede="AQP" data-generacion="2017-1">Arequipa Generacion 2017-1</option>
+                   <option value="CDMX" data-sede="CDMX" data-generacion="2017-2">CDMX Generacion 2017-1</option>
+                   <option value="CDMX" data-sede="CDMX" data-generacion="2016-2">CDMX generacion 2017-2</option>
+                   <option value="LIM" data-sede="LIM" data-generacion="2016-2">Lima Generacion 2016-2</option>
+                   <option value="LIM" data-sede="LIM" data-generacion="2017-1">Lima Generacion 2017-1</option>
+                   <option value="LIM" data-sede="LIM" data-generacion="2017-2">Lima Generacion 2017-2</option>
+                   <option value="SCL" data-sede="SCL" data-generacion="2016-2">Chile Generacion 2016-2</option>
+                   <option value="SCL" data-sede="SCL" data-generacion="2017-1">Chile Generacion 2017-1</option>
+                   <option value="SCL" data-sede="SCL" data-generacion="2017-2">Chile Generacion 2017-2</option>
+                </select>
+                </div>
+                  <!-- Sección Menu dinamico -->
+                <div class="tab">
+                   <button class="tablinks" onclick="openMenu(event, 'overflow')" id="defaultOpen">Overflow</button>
+                   <button class="tablinks" onclick="openMenu(event, 'students')">Students</button>
+                   <button class="tablinks" onclick="openMenu(event, 'professor')">Professor</button>
+                </div>
+                <!-- Sección de menú OVERFLOW -->
+                <main>
+                      <div id="overflow" class="tabcontent">
+                          <section id="graphic">
+                              <div class="first-graphic">
+                            <div class="title-graphic">
+                              <h3>ENROLLMENT</h3>
+                            </div>
+                            <div class="scores-data">
+                              <div class="score-one">
+                                <h2>120</h2>
+                                <h3>#STUDENTS CURRENTLY ENROLLEMENT</h3>
+                              </div>
+                              <div class="score-two">
+                                <h2>120</h2>
+                                <h3>#STUDENTS CURRENTLY ENROLLEMENT</h3>
+                              </div>
+                            </div>
+                              <img class="grafica1" src="assets/images/bar-graph.png" alt="GRAFICO">
+                          </div>
+                          <div class="second-graphic">
+                             <div class="title-graphic">
+                              <h3>ACHIEVEMENT</h3>
+                             </div>
+                             <div class="scores-data">
+                              <div class="score-one">
+                                <h2>120</h2>
+                                <h3>#STUDENTS THAT MEET THE TARGET</h3>
+                              </div>
+                              <div class="score-two">
+                                <h2>70%</h2>
+                                <h3># % OF TOTAL (135)</h3>
+                              </div>
+                            </div>
+                              <img class="grafica2" src="assets/images/graph.png" alt="GRAFICO">
+                          </div>
+                          <div class="third-graphic">
+                              <div class="title-graphic">
+                                <h3>NET PROMOTER SCORE</h3>
+                              </div>
+                              <div class="scores-data">
+                                <div class="score-one">
+                                  <h2>120</h2>
+                                  <h3>% ACUMULATIVE NPS</h3>
+                                </div>
+                                <div class="score-two">
+                                  <h2>120</h2>
+                                  <h3>#STUDENTS CURRENTLY ENROLLEMENT</h3>
+                                </div>
+                            </div>
+                              <img class="grafica3" src="assets/images/graph.png" alt="GRAFICO">
+                          </div>
+                        </section>
 
-		<!-- Base de datos -->
-		<script src="./js/data.js"></script>
-		<!-- Aquí va tus archivos JS -->
+                        <!-- Sección de TECH SKILLS -->
+                        <section id="tech-skills">
+                          <div class="skills-info">
+                            <h3 class="title-skills">TECH SKILLS </h3>
+                            <select id="select-skills">
+                              <option>overall (comulative)</option>
+                            </select>
+                          </div>
+                          <div class="score-skills">
+                            <div class="score-skills-one">
+                              <h2>90</h2>
+                              <h3>#STUDENTS THAT MEET THE TARGET</h3>
+                            </div>
+                            <div class="score-skills-two">
+                              <h2>62</h2>
+                              <h3>% OF TOTAL (135)</h3>
+                            </div>
+                          </div>
+                            <div class="grafics1">
+                              <img class="grafica4" src="assets/images/rectangular-graphic.png" alt="GRAFICO">
+                              <img class="grafica5" src="assets/images/circle-graphic.png" alt="GRAFICO">
+                            </div>
+                        </section>
+                        <!-- Sección Life Skills -->
+                        <section id="life-skills">
+                          <div class="skills-info">
+                            <h3 class="title-life-skills">LIFE SKILLS</h3>
+                            <select id="select-life-skills">
+                              <option>overall (comulative)</option>
+                            </select>
+                          </div>
+                          <div class="score-skills">
+                            <div class="score-skills-one">
+                              <h2>80</h2>
+                              <h3>#OVERALL CLASS AVERAGE</h3>
+                            </div>
+                            <div class="score-skills-two">
+                              <h2>62</h2>
+                              <h3>#OF STUDENTS THAT MEET THE TARGET</h3>
+                            </div>
+                          </div>
+                          <div class="grafics1">
+                            <img class="grafica4" src="assets/images/rectangular-graphic.png" alt="GRAFICO">
+                            <img class="grafica5" src="assets/images/circle-graphic.png" alt="GRAFICO">
+                          </div>
+                        </section>
+                   <!-- Sección STUDENT SATISFACTION -->
+                        <section id="graphic">
+                     <div class="first-graphic">
+                       <div class="title-graphic">
+                         <h3>STUDENT SATISFACTION</h3>
+                       </div>
+                       <div class="scores-data">
+                         <div class="score-one">
+                           <h2>140</h2>
+                           <h3>#STUDENTS CURRENTLY ENROLLEMENT</h3>
+                         </div>
+                       </div>
+                       <img class="grafica3" src="assets/images/graph.png" alt="GRAFICO">
+                     </div>
+                     <div class="second-graphic">
+                        <div class="title-graphic">
+                         <h3>TEACHER RATING</h3>
+                        </div>
+                        <div class="scores-data">
+                         <div class="score-one">
+                           <h2>4.2</h2>
+                           <h3>#STUDENTS THAT MEET THE TARGET</h3>
+                         </div>
+                       </div>
+                       <img class="grafica3" src="assets/images/graph.png" alt="GRAFICO">
+                     </div>
+                     <div class="third-graphic">
+                         <div class="title-graphic">
+                           <h3>JEDI MASTER RATING</h3>
+                         </div>
+                         <div class="scores-data">
+                           <div class="score-one">
+                             <h2>120</h2>
+                             <h3>% ACUMULATIVE NPS</h3>
+                           </div>
+                       </div>
+                       <img class="grafica3" src="assets/images/graph.png" alt="GRAFICO">
+                     </div>
+                   </section>
+                      </div>
+        <!-- sección de las estudiantes -->
+              <div id="students" class="tabcontent">
+                 <div class="contenedor-alumnas">
+                  <label id='cajita'></label>
+                </div>
+                <div class="esp-prof">
+                  <h3>ESPECIALIZATION</h3>
+                      <div class="select-esp-prof">
+                        <input type="checkbox" name="Javascript" value="Javascript">
+                        <p>Javascript</p>
+                      </div>
+                      <div class="select-esp-prof">
+                        <input type="checkbox" name="Javascript" value="Javascript">
+                        <p>UX Designer</p>
+                      </div>
+                      <div class="select-esp-prof">
+                        <input type="checkbox" name="Javascript" value="Javascript">
+                        <p>Front end Designer</p>
+                      </div>
+                  </form>
+                </div>
+              </div>
+        <!-- sección de las estudiantes -->
+              <div id="professor" class="tabcontent">
+                <div class="esp-prof">
+                  <h3>ESPECIALIZATION</h3>
+                      <div class="select-esp-prof">
+                        <input type="checkbox" name="Javascript" value="Javascript">
+                        <p>Javascript</p>
+                      </div>
+                      <div class="select-esp-prof">
+                        <input type="checkbox" name="Javascript" value="Javascript">
+                        <p>UX Designer</p>
+                      </div>
+                      <div class="select-esp-prof">
+                        <input type="checkbox" name="Javascript" value="Javascript">
+                        <p>Front end Designer</p>
+                      </div>
+                </div>
+              </div>
+
+      </section>
+    </main>
+    <!-- Base de datos -->
+    <script src="./js/data.js"></script>
+    <!-- Aquí va tus archivos JS -->
     <script src="./js/app.js"></script>
   </body>
 </html>
+
+
+
+

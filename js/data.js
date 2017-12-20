@@ -4,7 +4,7 @@ var data = {
       'students': [
         {
           'name': 'Donna Sloper',
-          'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -39,7 +39,7 @@ var data = {
         },
         {
           'name': 'Roana Menego',
-          'photo': 'http://dummyimage.com/102x187.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -74,7 +74,7 @@ var data = {
         },
         {
           'name': 'Ofella Weakley',
-          'photo': 'http://dummyimage.com/190x155.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -109,7 +109,7 @@ var data = {
         },
         {
           'name': 'Gretchen Gerhts',
-          'photo': 'http://dummyimage.com/147x166.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -144,7 +144,7 @@ var data = {
         },
         {
           'name': 'Judy Meindl',
-          'photo': 'http://dummyimage.com/220x128.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -179,7 +179,7 @@ var data = {
         },
         {
           'name': 'Jillene Porch',
-          'photo': 'http://dummyimage.com/132x125.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -214,7 +214,7 @@ var data = {
         },
         {
           'name': 'Sydney Burlingham',
-          'photo': 'http://dummyimage.com/100x167.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -249,7 +249,7 @@ var data = {
         },
         {
           'name': 'Alexi Gindghill',
-          'photo': 'http://dummyimage.com/113x215.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -284,7 +284,7 @@ var data = {
         },
         {
           'name': 'Donna Fearnill',
-          'photo': 'http://dummyimage.com/221x239.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -319,7 +319,7 @@ var data = {
         },
         {
           'name': 'Chiarra Dutton',
-          'photo': 'http://dummyimage.com/163x246.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -354,7 +354,7 @@ var data = {
         },
         {
           'name': 'Drusilla Terron',
-          'photo': 'http://dummyimage.com/165x131.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -389,7 +389,7 @@ var data = {
         },
         {
           'name': 'Karola Leathart',
-          'photo': 'http://dummyimage.com/154x140.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -424,7 +424,7 @@ var data = {
         },
         {
           'name': 'Jacquelin Beglin',
-          'photo': 'http://dummyimage.com/184x226.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -459,7 +459,7 @@ var data = {
         },
         {
           'name': 'Dorella Simants',
-          'photo': 'http://dummyimage.com/189x105.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -494,7 +494,7 @@ var data = {
         },
         {
           'name': 'Lynnett Roughley',
-          'photo': 'http://dummyimage.com/240x189.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -595,7 +595,7 @@ var data = {
       'students': [
         {
           'name': 'Collette Tubby',
-          'photo': 'http://dummyimage.com/203x162.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -623,7 +623,7 @@ var data = {
         },
         {
           'name': 'Dacey Bullers',
-          'photo': 'http://dummyimage.com/214x148.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -651,7 +651,7 @@ var data = {
         },
         {
           'name': 'Leta Cuel',
-          'photo': 'http://dummyimage.com/214x104.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -679,7 +679,7 @@ var data = {
         },
         {
           'name': 'Anita Lucock',
-          'photo': 'http://dummyimage.com/180x236.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -707,7 +707,7 @@ var data = {
         },
         {
           'name': 'Henrieta Osman',
-          'photo': 'http://dummyimage.com/146x182.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -735,7 +735,7 @@ var data = {
         },
         {
           'name': 'Ariella Itzhaki',
-          'photo': 'http://dummyimage.com/151x102.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -763,7 +763,7 @@ var data = {
         },
         {
           'name': 'Wilie Dunkinson',
-          'photo': 'http://dummyimage.com/244x133.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -791,7 +791,7 @@ var data = {
         },
         {
           'name': 'Marisa Tumber',
-          'photo': 'http://dummyimage.com/127x179.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -819,7 +819,7 @@ var data = {
         },
         {
           'name': 'Arlina Flacke',
-          'photo': 'http://dummyimage.com/162x147.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -847,7 +847,7 @@ var data = {
         },
         {
           'name': 'Wilow Linzey',
-          'photo': 'http://dummyimage.com/135x107.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -875,7 +875,7 @@ var data = {
         },
         {
           'name': 'Modesta Donnison',
-          'photo': 'http://dummyimage.com/247x228.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -903,7 +903,7 @@ var data = {
         },
         {
           'name': 'Stepha Cotesford',
-          'photo': 'http://dummyimage.com/109x210.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -931,7 +931,7 @@ var data = {
         },
         {
           'name': 'Adele Eyre',
-          'photo': 'http://dummyimage.com/171x191.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -959,7 +959,7 @@ var data = {
         },
         {
           'name': 'Kelcey Taig',
-          'photo': 'http://dummyimage.com/214x193.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -987,7 +987,7 @@ var data = {
         },
         {
           'name': 'Lynelle Capin',
-          'photo': 'http://dummyimage.com/104x164.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -1068,7 +1068,7 @@ var data = {
       'students': [
         {
           'name': 'Jada Curgenuer',
-          'photo': 'http://dummyimage.com/133x195.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -1096,7 +1096,7 @@ var data = {
         },
         {
           'name': 'Arleyne Olding',
-          'photo': 'http://dummyimage.com/133x232.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -1124,7 +1124,7 @@ var data = {
         },
         {
           'name': 'Wendy Jillions',
-          'photo': 'http://dummyimage.com/120x167.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': [
             {
@@ -1791,19 +1791,19 @@ var data = {
       'students': [
         {
           'name': 'Julieta Readhead',
-          'photo': 'http://dummyimage.com/119x227.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Meg Bachellier',
-          'photo': 'http://dummyimage.com/241x165.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Katharina Ponton',
-          'photo': 'http://dummyimage.com/206x204.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -1824,7 +1824,7 @@ var data = {
         },
         {
           'name': 'Hephzibah Poschel',
-          'photo': 'http://dummyimage.com/171x236.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -1845,19 +1845,19 @@ var data = {
         },
         {
           'name': 'Brigit Wildsmith',
-          'photo': 'http://dummyimage.com/232x187.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Kim Sacase',
-          'photo': 'http://dummyimage.com/155x169.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Ericka Carnilian',
-          'photo': 'http://dummyimage.com/106x168.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -1878,19 +1878,19 @@ var data = {
         },
         {
           'name': 'Juieta Doghartie',
-          'photo': 'http://dummyimage.com/194x195.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Selene Graysmark',
-          'photo': 'http://dummyimage.com/133x235.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Chantal Biernacki',
-          'photo': 'http://dummyimage.com/124x200.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -1911,13 +1911,13 @@ var data = {
         },
         {
           'name': 'Chelsey Crackett',
-          'photo': 'http://dummyimage.com/212x115.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Bernadene Van Der Straaten',
-          'photo': 'http://dummyimage.com/229x246.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -1938,19 +1938,19 @@ var data = {
         },
         {
           'name': 'Merry Seleway',
-          'photo': 'http://dummyimage.com/235x163.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Tana Dodding',
-          'photo': 'http://dummyimage.com/109x141.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Guendolen Kuhnwald',
-          'photo': 'http://dummyimage.com/157x176.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -1971,43 +1971,43 @@ var data = {
         },
         {
           'name': 'Henriette Graddon',
-          'photo': 'http://dummyimage.com/223x206.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Odille Moncaster',
-          'photo': 'http://dummyimage.com/133x126.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Babs Bartoli',
-          'photo': 'http://dummyimage.com/209x164.png/dddddd/000000',
+          'photo': 'hhttp://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Janeva Archibald',
-          'photo': 'http://dummyimage.com/110x173.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Starla Wibrew',
-          'photo': 'http://dummyimage.com/243x189.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Petra Berceros',
-          'photo': 'http://dummyimage.com/179x193.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': false,
           'sprints': []
         },
         {
           'name': 'Anitra Degoe',
-          'photo': 'http://dummyimage.com/144x220.png/dddddd/000000',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -2028,7 +2028,7 @@ var data = {
         },
         {
           'name': 'Jo ann Kniveton',
-          'photo': 'http://dummyimage.com/180x223.png/5fa2dd/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -2049,7 +2049,7 @@ var data = {
         },
         {
           'name': 'Alice Gerg',
-          'photo': 'http://dummyimage.com/190x244.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -2070,7 +2070,7 @@ var data = {
         },
         {
           'name': 'Dawn Lathee',
-          'photo': 'http://dummyimage.com/112x169.png/ff4444/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
@@ -2091,7 +2091,7 @@ var data = {
         },
         {
           'name': 'Nixie Baskeyfield',
-          'photo': 'http://dummyimage.com/220x118.png/cc0000/ffffff',
+          'photo': 'http://lorempixel.com/200/200/people/',
           'active': true,
           'sprints': [
             {
